@@ -5,11 +5,80 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link rel="stylesheet" href="src/sass/main.scss" />
-    <script defer src="controller.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Nunito+Sans:300,400,600,700"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="src/css/main.css" />
+    <script defer src="src/js/controller.js"></script>
     <title>Cocktail Doge at your serve.</title>
   </head>
   <body>
-    CocktailDoge will be here.
+    <figure class="container">
+      <div class="recipe">
+        <div class="search-area">
+          <h2>Doge is ready to hear you master.</h2>
+          <input
+            class="search-box"
+            type="text"
+            name="cocktailName"
+            id="main-search"
+            placeholder=" Let the doge suprise you!"
+          />
+        </div>
+        <div
+          class="doge-ready-img animate__animated animate__lightSpeedInRight"
+        >
+          <img src="src/img/doge-bw.svg" alt="doge black white" />
+        </div>
+      </div>
+    </figure>
+    <!-- <figure class="cocktail">
+      <div class="cocktail__hero">
+        <img
+          src="https://www.thecocktaildb.com/images/media/drink/jylbrq1582580066.jpg"
+          alt="cocktail"
+          class="cocktail__img"
+        />
+      </div>
+      <div class="info-side">
+        <div class="cocktail__category">Soft Drink / Soda</div>
+        <div class="cocktail__content">
+          <h1 class="cocktail__heading">Pizza Vegetale 👌🏻</h1>
+          <p class="cocktail__description">
+            Just pour all ingredients in the glass and stir...
+          </p>
+          <div class="cocktail__ingredients">
+            <div class="cocktail__ingredients--ingredient">
+              <ul>
+                <li>🩸</li>
+                <li>💧</li>
+                <li>🩸</li>
+              </ul>
+            </div>
+            <div class="cocktail__ingredients--measure">
+              <ul>
+                <li>🧪</li>
+                <li>🧪</li>
+                <li>🧪</li>
+              </ul>
+            </div>
+          </div>
+          <div class="cocktail__details">
+            <p class="cocktail__detail">
+              <span class="emoji">🍸</span>Cocktail glass
+            </p>
+            <p class="cocktail__detail">
+              <span class="emoji">⛽</span>Alcoholic
+            </p>
+          </div>
+        </div>
+      </div>
+    </figure> -->
   </body>
 </html>

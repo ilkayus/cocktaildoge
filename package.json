@@ -1,0 +1,27 @@
+{
+  "name": "cocktaildoge",
+  "version": "1.0.0",
+  "description": "",
+  "default": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel index.html",
+    "build": "parcel build index.html --dist-dir ./dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ilkayus/cocktaildoge.git"
+  },
+  "author": "ilkayus",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ilkayus/cocktaildoge/issues"
+  },
+  "homepage": "https://github.com/ilkayus/cocktaildoge#readme",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.0.0-beta.2",
+    "parcel": "^2.0.0-beta.2",
+    "sass": "^1.32.13"
+  },
+  "dependencies": {}
+}
